@@ -1,0 +1,43 @@
+#flexAbout {
+    display: grid;
+    grid-template-columns: 10vw 50vw 30vw;
+    grid-template-rows: 18% 1fr;
+    grid-gap: 20px;
+    background: white;
+}
+
+.text {
+    font-family: fantasy, Lato, Arial, Helvetica, sans-serif; 
+    color: grey;
+    padding-top: 4%;
+    font-size: 1.5vw;
+    text-align: left;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.pic {
+  grid-column: 3;
+	grid-row: 2;
+}
+
+#mePic {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #00B1E1;
+  height: 35vw;
+  width: 27vw;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;
+}
+
+#button {
+  height: 60px;
+  width: 60px;
+  padding-right: 15px; 
+}

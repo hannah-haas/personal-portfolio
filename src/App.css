@@ -2,37 +2,86 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#hannah{
+
+   float: left;
+   padding-left: 5vw;
+   padding-top: 25px;
+   color: grey;
+   font-family: fantasy;
+   font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#navBar {
+	display: flex;
+  flex-direction: row;
   color: white;
+  float: right;
+  text-align: center;
+  padding-top: 1.5%;
+  padding-right: 3%;
+  text-decoration: none;
+  font-size: 25px;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+#topBar {
+  width: 100%;
+  float: right;
+  padding: 14px 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line-1{
+    position: relative;
+    /* top: 50%;   */
+    width: 24em;
+    margin: auto auto;
+    border-right: 2px solid grey;
+    /* font-size: 180%; */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /* transform: translateY(-50%);   */
+    padding-top: 6vw;
+    color: 	#abf0f5;
+    font-size: 3vw;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.anim-typewriter{
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 800ms steps(44) infinite normal;
+  font-family: fantasy;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 4.3em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.intro{
+    padding-top: 5vw;
+    color: #abf0f5;
+    font-size: 2.3vw;
+    /* padding-left: 27vw;
+    padding-right: 27vw; */
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: fantasy
+}
+
