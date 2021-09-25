@@ -1,6 +1,5 @@
 import React, { Component, View } from 'react';
 import me from "./me.jpg"
-import test from "./4c4a4c42c9887180b1aed65bdfceb4f90d7b7cdd37f1dab345c170045f942bd2.jpg"
 import "./About.css";
 import linkedin from "./linkedin.jpg"
 import mail from "./mail.jpg"
@@ -41,7 +40,6 @@ class About extends Component {
                 </p >
                 <div class="pic" >
                     <img id="mePic" src={me} />
-                    <img id="mePic" src={test} />
                 </div >
             </div>
         )
